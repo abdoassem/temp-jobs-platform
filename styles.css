@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+}
+
+.button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.search-form {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.search-form input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.job-list {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.job-form {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.job-form input, .job-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.job-form textarea {
+    height: 100px;
+}
+
+.job-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
