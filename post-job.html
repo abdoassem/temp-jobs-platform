@@ -19,5 +19,18 @@
         <!-- هنا سيتم عرض الوظائف -->
     </div>
     <script src="scripts.js"></script>
+    <div class="job-form">
+        <input type="text" placeholder="عنوان الوظيفة" id="job-title">
+        <textarea placeholder="وصف الوظيفة" id="job-description"></textarea>
+        <input type="text" placeholder="مكان العمل" id="job-location">
+        <input type="date" placeholder="تاريخ البدء" id="job-start-date">
+        <input type="text" placeholder="المهارات المطلوبة" id="job-skills">
+        <select id="job-type">
+            <option value="part-time">دوام جزئي</option>
+            <option value="full-time">دوام كامل</option>
+            <option value="temporary">مؤقت</option>
+        </select>
+        <button class="button" onclick="publishJob()">نشر الوظيفة</button>
+    </div>
 </body>
 </html>
