@@ -25,3 +25,6 @@ function publishJob() {
         alert('الرجاء ملء جميع الحقول.');
     }
 }
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("الموقع جاهز!");
+});
